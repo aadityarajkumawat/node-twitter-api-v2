@@ -1,5 +1,6 @@
 import { TwitterApiV2Settings } from './settings';
 
+// my significant change
 export interface SharedPromise<T> {
   value: T | undefined;
   promise: Promise<T>;
